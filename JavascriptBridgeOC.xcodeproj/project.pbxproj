@@ -15,12 +15,12 @@
 		4B23EBA827E968D4003F6F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBA627E968D4003F6F60 /* LaunchScreen.storyboard */; };
 		4B23EBAB27E968D4003F6F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBAA27E968D4003F6F60 /* main.m */; };
 		4B23EBB627E96A5C003F6F60 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBB527E96A5C003F6F60 /* WebViewController.m */; };
-		4B23EBBE27E96AD4003F6F60 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBB827E96AD4003F6F60 /* WebViewJavascriptBridgeBase.m */; };
-		4B23EBBF27E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBB927E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.m */; };
-		4B23EBC027E96AD4003F6F60 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBBA27E96AD4003F6F60 /* WebViewJavascriptBridge.m */; };
-		4B23EBC327E96BE0003F6F60 /* hookConsole.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBC127E96BDF003F6F60 /* hookConsole.js */; };
-		4B23EBC427E96BE0003F6F60 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBC227E96BE0003F6F60 /* bridge.js */; };
 		4B23EBC627E96C04003F6F60 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBC527E96C04003F6F60 /* Demo.html */; };
+		EF564762282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */; };
+		EF564763282E144D00C78FF3 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = EF56475B282E144D00C78FF3 /* bridge.js */; };
+		EF564764282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */; };
+		EF564765282E144D00C78FF3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */; };
+		EF564766282E144D00C78FF3 /* hookConsole.js in Resources */ = {isa = PBXBuildFile; fileRef = EF56475F282E144D00C78FF3 /* hookConsole.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,15 +38,15 @@
 		4B23EBAA27E968D4003F6F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B23EBB427E96A5C003F6F60 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4B23EBB527E96A5C003F6F60 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		4B23EBB827E96AD4003F6F60 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		4B23EBB927E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
-		4B23EBBA27E96AD4003F6F60 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		4B23EBBB27E96AD4003F6F60 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		4B23EBBC27E96AD4003F6F60 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		4B23EBBD27E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptLeakAvoider.h; sourceTree = "<group>"; };
-		4B23EBC127E96BDF003F6F60 /* hookConsole.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hookConsole.js; sourceTree = "<group>"; };
-		4B23EBC227E96BE0003F6F60 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
 		4B23EBC527E96C04003F6F60 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
+		EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		EF56475B282E144D00C78FF3 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
+		EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		EF56475F282E144D00C78FF3 /* hookConsole.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hookConsole.js; sourceTree = "<group>"; };
+		EF564760282E144D00C78FF3 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		EF564761282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptLeakAvoider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		4B23EB9727E968D2003F6F60 /* JavascriptBridgeOC */ = {
 			isa = PBXGroup;
 			children = (
-				4B23EBB727E96AD4003F6F60 /* WebViewJavascriptBridge */,
+				EF564759282E144D00C78FF3 /* Classes */,
 				4B23EB9827E968D2003F6F60 /* AppDelegate.h */,
 				4B23EB9927E968D2003F6F60 /* AppDelegate.m */,
 				4B23EB9B27E968D2003F6F60 /* SceneDelegate.h */,
@@ -98,19 +98,19 @@
 			path = JavascriptBridgeOC;
 			sourceTree = "<group>";
 		};
-		4B23EBB727E96AD4003F6F60 /* WebViewJavascriptBridge */ = {
+		EF564759282E144D00C78FF3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4B23EBC227E96BE0003F6F60 /* bridge.js */,
-				4B23EBC127E96BDF003F6F60 /* hookConsole.js */,
-				4B23EBBC27E96AD4003F6F60 /* WebViewJavascriptBridge.h */,
-				4B23EBBA27E96AD4003F6F60 /* WebViewJavascriptBridge.m */,
-				4B23EBBB27E96AD4003F6F60 /* WebViewJavascriptBridgeBase.h */,
-				4B23EBB827E96AD4003F6F60 /* WebViewJavascriptBridgeBase.m */,
-				4B23EBBD27E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.h */,
-				4B23EBB927E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.m */,
+				EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */,
+				EF56475B282E144D00C78FF3 /* bridge.js */,
+				EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */,
+				EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */,
+				EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */,
+				EF56475F282E144D00C78FF3 /* hookConsole.js */,
+				EF564760282E144D00C78FF3 /* WebViewJavascriptBridge.h */,
+				EF564761282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.h */,
 			);
-			path = WebViewJavascriptBridge;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,9 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B23EBA827E968D4003F6F60 /* LaunchScreen.storyboard in Resources */,
-				4B23EBC327E96BE0003F6F60 /* hookConsole.js in Resources */,
-				4B23EBC427E96BE0003F6F60 /* bridge.js in Resources */,
 				4B23EBA527E968D4003F6F60 /* Assets.xcassets in Resources */,
+				EF564763282E144D00C78FF3 /* bridge.js in Resources */,
+				EF564766282E144D00C78FF3 /* hookConsole.js in Resources */,
 				4B23EBA327E968D2003F6F60 /* Main.storyboard in Resources */,
 				4B23EBC627E96C04003F6F60 /* Demo.html in Resources */,
 			);
@@ -187,12 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B23EBA027E968D2003F6F60 /* ViewController.m in Sources */,
-				4B23EBC027E96AD4003F6F60 /* WebViewJavascriptBridge.m in Sources */,
+				EF564765282E144D00C78FF3 /* WebViewJavascriptBridge.m in Sources */,
 				4B23EBB627E96A5C003F6F60 /* WebViewController.m in Sources */,
-				4B23EBBF27E96AD4003F6F60 /* WebViewJavascriptLeakAvoider.m in Sources */,
+				EF564764282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */,
 				4B23EB9A27E968D2003F6F60 /* AppDelegate.m in Sources */,
 				4B23EBAB27E968D4003F6F60 /* main.m in Sources */,
-				4B23EBBE27E96AD4003F6F60 /* WebViewJavascriptBridgeBase.m in Sources */,
+				EF564762282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */,
 				4B23EB9D27E968D2003F6F60 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
