@@ -101,14 +101,14 @@
 		EF564759282E144D00C78FF3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */,
 				EF56475B282E144D00C78FF3 /* bridge.js */,
-				EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */,
-				EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */,
-				EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */,
 				EF56475F282E144D00C78FF3 /* hookConsole.js */,
 				EF564760282E144D00C78FF3 /* WebViewJavascriptBridge.h */,
+				EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */,
+				EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */,
+				EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */,
 				EF564761282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.h */,
+				EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
