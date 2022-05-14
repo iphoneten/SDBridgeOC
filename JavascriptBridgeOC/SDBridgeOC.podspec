@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDBridgeOC"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Simple Design for Objective-C bridge with Javascript. Also can get js console.log."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes/*.{h,m,js}'
+  s.source_files  = 'Classes/SDBridgeOC/*.{h,m,js}'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

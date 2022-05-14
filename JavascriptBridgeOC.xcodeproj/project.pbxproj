@@ -16,11 +16,11 @@
 		4B23EBAB27E968D4003F6F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBAA27E968D4003F6F60 /* main.m */; };
 		4B23EBB627E96A5C003F6F60 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBB527E96A5C003F6F60 /* WebViewController.m */; };
 		4B23EBC627E96C04003F6F60 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBC527E96C04003F6F60 /* Demo.html */; };
-		EF564762282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */; };
-		EF564763282E144D00C78FF3 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = EF56475B282E144D00C78FF3 /* bridge.js */; };
-		EF564764282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */; };
-		EF564765282E144D00C78FF3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */; };
-		EF564766282E144D00C78FF3 /* hookConsole.js in Resources */ = {isa = PBXBuildFile; fileRef = EF56475F282E144D00C78FF3 /* hookConsole.js */; };
+		EF5647D4282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CC282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m */; };
+		EF5647D5282F93A900C78FF3 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = EF5647CD282F93A900C78FF3 /* bridge.js */; };
+		EF5647D6282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CE282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m */; };
+		EF5647D7282F93A900C78FF3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CF282F93A900C78FF3 /* WebViewJavascriptBridge.m */; };
+		EF5647D8282F93A900C78FF3 /* hookConsole.js in Resources */ = {isa = PBXBuildFile; fileRef = EF5647D1282F93A900C78FF3 /* hookConsole.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,14 +39,14 @@
 		4B23EBB427E96A5C003F6F60 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4B23EBB527E96A5C003F6F60 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		4B23EBC527E96C04003F6F60 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
-		EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		EF56475B282E144D00C78FF3 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
-		EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
-		EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		EF56475F282E144D00C78FF3 /* hookConsole.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hookConsole.js; sourceTree = "<group>"; };
-		EF564760282E144D00C78FF3 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		EF564761282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptLeakAvoider.h; sourceTree = "<group>"; };
+		EF5647CC282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		EF5647CD282F93A900C78FF3 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		EF5647CE282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
+		EF5647CF282F93A900C78FF3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		EF5647D0282F93A900C78FF3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		EF5647D1282F93A900C78FF3 /* hookConsole.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hookConsole.js; sourceTree = "<group>"; };
+		EF5647D2282F93A900C78FF3 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		EF5647D3282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptLeakAvoider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +101,24 @@
 		EF564759282E144D00C78FF3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF56475B282E144D00C78FF3 /* bridge.js */,
-				EF56475F282E144D00C78FF3 /* hookConsole.js */,
-				EF564760282E144D00C78FF3 /* WebViewJavascriptBridge.h */,
-				EF56475D282E144D00C78FF3 /* WebViewJavascriptBridge.m */,
-				EF56475E282E144D00C78FF3 /* WebViewJavascriptBridgeBase.h */,
-				EF56475A282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m */,
-				EF564761282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.h */,
-				EF56475C282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m */,
+				EF5647CB282F93A900C78FF3 /* SDBridgeOC */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF5647CB282F93A900C78FF3 /* SDBridgeOC */ = {
+			isa = PBXGroup;
+			children = (
+				EF5647CD282F93A900C78FF3 /* bridge.js */,
+				EF5647D1282F93A900C78FF3 /* hookConsole.js */,
+				EF5647D2282F93A900C78FF3 /* WebViewJavascriptBridge.h */,
+				EF5647CF282F93A900C78FF3 /* WebViewJavascriptBridge.m */,
+				EF5647D0282F93A900C78FF3 /* WebViewJavascriptBridgeBase.h */,
+				EF5647CC282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m */,
+				EF5647D3282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.h */,
+				EF5647CE282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m */,
+			);
+			path = SDBridgeOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +180,8 @@
 			files = (
 				4B23EBA827E968D4003F6F60 /* LaunchScreen.storyboard in Resources */,
 				4B23EBA527E968D4003F6F60 /* Assets.xcassets in Resources */,
-				EF564763282E144D00C78FF3 /* bridge.js in Resources */,
-				EF564766282E144D00C78FF3 /* hookConsole.js in Resources */,
+				EF5647D5282F93A900C78FF3 /* bridge.js in Resources */,
+				EF5647D8282F93A900C78FF3 /* hookConsole.js in Resources */,
 				4B23EBA327E968D2003F6F60 /* Main.storyboard in Resources */,
 				4B23EBC627E96C04003F6F60 /* Demo.html in Resources */,
 			);
@@ -187,12 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B23EBA027E968D2003F6F60 /* ViewController.m in Sources */,
-				EF564765282E144D00C78FF3 /* WebViewJavascriptBridge.m in Sources */,
+				EF5647D7282F93A900C78FF3 /* WebViewJavascriptBridge.m in Sources */,
 				4B23EBB627E96A5C003F6F60 /* WebViewController.m in Sources */,
-				EF564764282E144D00C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */,
+				EF5647D6282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */,
 				4B23EB9A27E968D2003F6F60 /* AppDelegate.m in Sources */,
 				4B23EBAB27E968D4003F6F60 /* main.m in Sources */,
-				EF564762282E144D00C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */,
+				EF5647D4282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */,
 				4B23EB9D27E968D2003F6F60 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
