@@ -8,7 +8,7 @@
 
 #import "WebViewJavascriptBridge.h"
 #import "WebViewJavascriptLeakAvoider.h"
-
+#import "SDJavascriptCode.h"
 static NSString * const PipeTypeNormal = @"normal";
 static NSString * const PipeTypeConsole = @"console";
 @interface WebViewJavascriptBridge()
@@ -73,11 +73,8 @@ static NSString * const PipeTypeConsole = @"console";
     }
 }
 - (void)injectJavascriptFile {
-    for (NSString *javascriptName in self.javascriptFiles) {
-        NSString *javascriptPath = [[NSBundle mainBundle] pathForResource:javascriptName ofType:@"js"];
-        NSString *javascriptContent = [NSString stringWithContentsOfFile:javascriptPath encoding:NSUTF8StringEncoding error:nil];
-        [self injectJavascriptCode:javascriptContent];
-    }
+    [self injectJavascriptCode:[SDJavascriptCode bridge]];
+    [self injectJavascriptCode:[SDJavascriptCode hookConsole]];
 }
 - (void)injectJavascriptCode:(NSString *)javascriptCode {
     if (!javascriptCode){
