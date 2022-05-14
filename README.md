@@ -1,6 +1,6 @@
 ![](Resource/SDBridgeOC.png)
 ![language](https://img.shields.io/badge/Language-ObjectiveC-green)
-[![License MIT](https://img.shields.io/badge/license-MIT-FC89CD.svg?style=flat)](https://github.com/SDBridge/SDBridgeOC/blob/master/JavascriptBridgeOC/LICENSE)&nbsp;
+![language](https://img.shields.io/badge/support-Javascript/Async/Await-green)
 [![Support](https://img.shields.io/badge/support-iOS%209%2B%20-FB7DEC.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 [![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-green)](http://cocoapods.org/pods/SDBridgeOC)
 
@@ -37,6 +37,8 @@ Usage
 - (void)setupView {
     self.view.backgroundColor = [UIColor whiteColor];
     WKWebViewConfiguration * webViewConfiguration = [[WKWebViewConfiguration alloc] init];
+    // Allow cross domain
+    [webViewConfiguration setValue:@YES forKey:@"allowUniversalAccessFromFileURLs"];
     CGRect frame = CGRectMake(0, 100, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 100);
     self.webView = [[WKWebView alloc] initWithFrame:frame configuration:webViewConfiguration];
     self.bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView] ;
@@ -53,45 +55,75 @@ Usage
     }];
     NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"Demo" ofType:@"html"];
     NSURL *filePath = [NSURL fileURLWithPath:htmlPath];
-    // Loading html in local 
+    // Loading html in local ，This way maybe meet cross domain. So You should not forget to set
+    // [webViewConfiguration setValue:@YES forKey:@"allowUniversalAccessFromFileURLs"];
+    // If you loading remote web server,That can be ignored.
     [self.webView loadFileURL:filePath allowingReadAccessToURL:filePath];
 }
 ```
 
-2) Register a handler in ObjC, and call a JS handler:
+2)  In ObjC, and call a Javascript sync function:
 
 ```objc
- - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+ - (void)callSyncFunction {
     NSDictionary *data = @{@"iOSKey": @"iOSValue"};
     [self.bridge callHandler:@"GetToken" data: data responseCallback:^(id  _Nonnull responseData) {
+        NSLog(@"%@",responseData);
+
+    }];
+```
+
+3) In ObjC, and call a Javascript Async function:
+```objc
+ - (void)callAsyncFunction {
+    NSDictionary *data = @{@"iOSKey": @"iOSValue"};
+    [self.bridge callHandler:@"AsyncCall" data: data responseCallback:^(id  _Nonnull responseData) {
         NSLog(@"%@",responseData);
     }];
 }
 ```
-3) In javascript file or html file like :
-	
+4) In javascript file or typescript and html file like :
+
 ```javascript
 <script>
     console.log("1111111111111");
     const bridge = window.WebViewJavascriptBridge;
     // JS tries to call the native method to judge whether it has been loaded successfully and let itself know whether its user is in android app or IOS app
     bridge.callHandler('DeviceLoadJavascriptSuccess', {key: 'JSValue'}, function(response) {
-    let result = response.result
-    if (result === "iOS") {
-    console.log("Javascript was loaded by IOS and successfully loaded.");
-    window.iOSLoadJSSuccess = true;
-} else if (result === "Android") {
-    console.log("Javascript was loaded by Android and successfully loaded.");
-    window.AndroidLoadJSSuccess = true;
-}
-})
+        let result = response.result
+        if (result === "iOS") {
+            console.log("Javascript was loaded by IOS and successfully loaded.");
+            window.iOSLoadJSSuccess = true;
+            } else if (result === "Android") {
+            console.log("Javascript was loaded by Android and successfully loaded.");
+            window.AndroidLoadJSSuccess = true;
+       }
+   });
     // JS register method is called by native
     bridge.registerHandler('GetToken', function(data, responseCallback) {
-    console.log(data);
-    let result = {token: "I am javascript's token"}
-    //JS gets the data and returns it to the native
-    responseCallback(result)
-})
+        console.log(data);
+        let result = {token: "I am javascript's token"}
+        //JS gets the data and returns it to the native
+        responseCallback(result)
+    });
+    
+    bridge.registerHandler('AsyncCall', function(data, responseCallback) {
+        console.log(data);
+        //Call await function must with  (async () => {})();
+        (async () => {
+            const callback = await generatorLogNumber(1);
+            let result = {token: callback};
+            responseCallback(result);
+        })();
+    });
+
+    function generatorLogNumber(n){
+        return new Promise(res => {
+        setTimeout(() => {
+            res("Javascript async/await callback Ok");
+              }, 1000);
+        });
+   }
 </script>
 ```
 # Contact
