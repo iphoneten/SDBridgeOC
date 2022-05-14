@@ -9,7 +9,7 @@
 Add this to your [podfile](https://guides.cocoapods.org/using/getting-started.html) and run `pod install` to install:
 
 ```ruby
-pod 'SDBridgeOC', '~> 1.0.2'
+pod 'SDBridgeOC', '~> 1.0.3'
 ```
 If you can't find the last version, maybe you need to update local pod repo.
 ```ruby
