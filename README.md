@@ -4,7 +4,7 @@
 [![Support](https://img.shields.io/badge/support-iOS%209%2B%20-FB7DEC.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 [![CocoaPods](https://img.shields.io/badge/pod-v1.0.4-green)](http://cocoapods.org/pods/SDBridgeOC)
 
-[SDBridgeSwift](https://github.com/SDBridge/SDBridgeSwift) is in [here](https://github.com/SDBridge/SDBridgeSwift).
+[SDBridgeSwift](https://github.com/SDBridge/SDBridgeSwift) is [here](https://github.com/SDBridge/SDBridgeSwift).
 ### Installation with CocoaPods
 Add this to your [podfile](https://guides.cocoapods.org/using/getting-started.html) and run `pod install` to install:
 
