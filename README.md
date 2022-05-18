@@ -132,4 +132,4 @@ Usage
 
 ## License
 
-SDBridgeOC is released under the MIT license. [See LICENSE](https://github.com/SDBridge/SDBridgeOC/blob/master/JavascriptBridgeOC/LICENSE) for details.
+SDBridgeOC is released under the MIT license. [See LICENSE](https://github.com/SDBridge/SDBridgeOC/blob/master/LICENSE) for details.
