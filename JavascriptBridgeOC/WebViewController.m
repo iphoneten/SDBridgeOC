@@ -32,6 +32,7 @@
     [webViewConfiguration setValue:@YES forKey:@"allowUniversalAccessFromFileURLs"];
     CGRect frame = CGRectMake(0, 100, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 100);
     self.webView = [[WKWebView alloc] initWithFrame:frame configuration:webViewConfiguration];
+    [self.view addSubview:self.webView];
     self.webView.navigationDelegate = self;
     self.bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView] ;
     self.bridge.consolePipeBlock = ^(id  _Nonnull water) {
@@ -57,7 +58,7 @@
     self.title = @"WebViewController";
 }
 - (void)callSyncFunction {
-    NSDictionary *data = @{@"iOSKey": @"iOSValue"};
+    NSDictionary *data = @{@"iOSKey00": @"iOSValue00"};
     [self.bridge callHandler:@"GetToken" data: data responseCallback:^(id  _Nonnull responseData) {
         NSLog(@"%@",responseData);
 
@@ -65,7 +66,7 @@
 }
 
 - (void)callAsyncFunction {
-    NSDictionary *data = @{@"iOSKey": @"iOSValue"};
+    NSDictionary *data = @{@"iOSKey01": @"iOSValue01"};
     [self.bridge callHandler:@"AsyncCall" data: data responseCallback:^(id  _Nonnull responseData) {
         NSLog(@"%@",responseData);
     }];
