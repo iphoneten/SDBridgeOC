@@ -43,6 +43,9 @@
         NSDictionary *response = @{@"result": @"iOS"};
         responseCallback(response);
     }];
+    // index.html use SDBridge.js. This js file was create by webpack.
+//  NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    
     NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"Demo" ofType:@"html"];
     NSURL *filePath = [NSURL fileURLWithPath:htmlPath];
     // Loading html in local ，This way maybe meet cross domain. So You should not forget to set

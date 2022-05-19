@@ -16,6 +16,8 @@
 		4B23EBAB27E968D4003F6F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBAA27E968D4003F6F60 /* main.m */; };
 		4B23EBB627E96A5C003F6F60 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23EBB527E96A5C003F6F60 /* WebViewController.m */; };
 		4B23EBC627E96C04003F6F60 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B23EBC527E96C04003F6F60 /* Demo.html */; };
+		EF35D158283696F2007848B4 /* SDBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = EF35D157283696F2007848B4 /* SDBridge.js */; };
+		EF35D15A283696F8007848B4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EF35D159283696F8007848B4 /* index.html */; };
 		EF5647D4282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CC282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m */; };
 		EF5647D6282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CE282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m */; };
 		EF5647D7282F93A900C78FF3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5647CF282F93A900C78FF3 /* WebViewJavascriptBridge.m */; };
@@ -38,6 +40,8 @@
 		4B23EBB427E96A5C003F6F60 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4B23EBB527E96A5C003F6F60 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		4B23EBC527E96C04003F6F60 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
+		EF35D157283696F2007848B4 /* SDBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SDBridge.js; sourceTree = "<group>"; };
+		EF35D159283696F8007848B4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		EF5647CC282F93A900C78FF3 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		EF5647CE282F93A900C78FF3 /* WebViewJavascriptLeakAvoider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptLeakAvoider.m; sourceTree = "<group>"; };
 		EF5647CF282F93A900C78FF3 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				4B23EB9F27E968D2003F6F60 /* ViewController.m */,
 				4B23EBB427E96A5C003F6F60 /* WebViewController.h */,
 				4B23EBB527E96A5C003F6F60 /* WebViewController.m */,
+				EF35D157283696F2007848B4 /* SDBridge.js */,
+				EF35D159283696F8007848B4 /* index.html */,
 				4B23EBC527E96C04003F6F60 /* Demo.html */,
 				4B23EBA127E968D2003F6F60 /* Main.storyboard */,
 				4B23EBA427E968D4003F6F60 /* Assets.xcassets */,
@@ -178,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B23EBA827E968D4003F6F60 /* LaunchScreen.storyboard in Resources */,
+				EF35D158283696F2007848B4 /* SDBridge.js in Resources */,
 				4B23EBA527E968D4003F6F60 /* Assets.xcassets in Resources */,
+				EF35D15A283696F8007848B4 /* index.html in Resources */,
 				4B23EBA327E968D2003F6F60 /* Main.storyboard in Resources */,
 				4B23EBC627E96C04003F6F60 /* Demo.html in Resources */,
 			);
