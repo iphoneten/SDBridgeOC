@@ -130,9 +130,19 @@ Usage
    }
 </script>
 ```
-# Contact
+# Global support for free
+WhatsApp:
+[SDBridgeOC Support](https://chat.whatsapp.com/FWWICrblAApDSPEtJKCph1)
 
-- Email: housenkui@gmail.com
+Telegram:
+[SDBridgeOC Support](https://t.me/+hG9DweNzpqhhNjU1)
+
+WeChat Group:
+
+![](Resource/SDBridgeOCSupport.JPG)
+
+Email:
+housenkui@gmail.com
 
 ## License
 
