@@ -13,7 +13,7 @@ If your h5 partner confused about how to deal with iOS and Android.
 Add this to your [podfile](https://guides.cocoapods.org/using/getting-started.html) and run `pod install` to install:
 
 ```ruby
-pod 'SDBridgeOC', '~> 1.0.4'
+pod 'SDBridgeOC', '~> 1.0.5'
 ```
 If you can't find the last version, maybe you need to update local pod repo.
 ```ruby
@@ -143,6 +143,11 @@ WeChat Group:
 
 Email:
 housenkui@gmail.com
+
+# History version update ?
+[v1.0.5](https://github.com/SDBridge/SDBridgeOC)
+
+1.OC can get console.log [Multi parameter](https://github.com/SDBridge/SDBridgeOC/blob/master/SDBridgeOC/SDJavascriptCode.m#L96).
 
 ## License
 
