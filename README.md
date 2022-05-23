@@ -9,6 +9,9 @@
 If your h5 partner confused about how to deal with iOS and Android.
 [This Demo maybe help](https://github.com/SDBridge/TypeScriptDemo).
 
+[bilibili video introduction is here](https://search.bilibili.com/all?keyword=SDBridgeOC&from_source=webtop_search&spm_id_from=333.788).
+
+
 ### Installation with CocoaPods
 Add this to your [podfile](https://guides.cocoapods.org/using/getting-started.html) and run `pod install` to install:
 
