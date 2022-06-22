@@ -141,9 +141,9 @@ WhatsApp:
 Telegram:
 [SDBridgeOC Support](https://t.me/+hG9DweNzpqhhNjU1)
 
-WeChat Group:
+WeChat :
 
-![](Resource/SDBridgeOCSupport.JPG)
+![](Resource/wechat.png)
 
 Email:
 housenkui@gmail.com
